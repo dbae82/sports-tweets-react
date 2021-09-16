@@ -53,6 +53,7 @@ const Nav = (props) => {
         UserModel.show().then((json) => {
           setUser(json.data);
           setOpen(false);
+          fetch(`https://sportstweetstwitter.herokuapp.com/rules/${json.data.favTeam.rules}`).then(console.log("sent"))
         });
       }
     });
