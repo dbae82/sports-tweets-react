@@ -1,4 +1,4 @@
-const url = 'http://localhost:4000/api/v1/auth';
+const url = 'https://sportstweetsapi.herokuapp.com/api/v1/auth';
 
 class Auth {
     static register(data) {

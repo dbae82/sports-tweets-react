@@ -1,4 +1,4 @@
-const url = 'http://localhost:4000/api/v1/user';
+const url = 'https://sportstweetsapi.herokuapp.com/api/v1/user';
 
 class User {
     static show() {
