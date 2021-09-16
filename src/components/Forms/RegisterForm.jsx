@@ -28,6 +28,7 @@ const RegisterForm = (props) => {
       if (value.key === event.target.innerText) return true;
     });
     setFavTeam(foundTeam[0]._id);
+    fetch(`https://sportstweetstwitter.herokuapp.com/rules/${foundTeam[0].rules}`).then(console.log("sent"))
   }
 
   function handleSubmit(event) {
