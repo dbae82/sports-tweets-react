@@ -1,0 +1,7 @@
+.nav-bar {
+    background-color: whitesmoke;
+}
+
+#feed-link, #profile-link {
+    height: 68px;
+}

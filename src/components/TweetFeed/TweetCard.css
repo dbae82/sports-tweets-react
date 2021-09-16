@@ -1,0 +1,12 @@
+#twitter-profile-image {
+    border-radius: 100%;
+}
+
+#tweet-content {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* #tweet-card {
+    min-height: 80px;
+} */
